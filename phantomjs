@@ -1,0 +1,4 @@
+#!/bin/sh
+# phantomjs wrapper script to hide dock icon
+# See http://code.google.com/p/phantomjs/issues/detail?id=281
+exec /usr/local/Cellar/phantomjs/1.5.0/libexec/phantomjs "$@"
